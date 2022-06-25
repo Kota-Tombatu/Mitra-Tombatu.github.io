@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding: 0px;
+    font-family: sans-serif;
+    color: #1f2667;
+    background-color: #f0f0f0;
+}
+.header{
+    width:100%;
+    height:70px;
+    box-shadow: 0.2px 0.2px 3px gray;
+    background-color: white;
+}
+.container{
+    width: 900px;
+    margin:0px auto;
+}
+.Logo{
+    width: 30%;
+    margin-top: 25px;
+}
+.flex{
+    display: flex;
+}
+.Menu{
+    width: 99%;
+    text-align: right;
+    margin-top: 20px;
+}
+.Menu-link{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    color:#1f2667;
+    font-size: 16px;
+}
+
+.img-banner{
+    width: 100%;
+    height:300px;
+    overflow: hidden;
+}
+.text-banner{
+    margin-top:70px;
+    position: absolute;
+}
+
+.bread{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+}
+
+.content-wrapper{
+    text-align: justify;
+    margin-left: -150px;
+    position: absolute;
+    margin-top:-80px;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-width: 1px ;
+}
+h3.span{
+    color:red;
+}
+.content-img{
+    position: absolute;
+    margin-left: 550px;
+    margin-top:-130px;
+    background-color: #1f2667;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-width: 3px ;
+}
